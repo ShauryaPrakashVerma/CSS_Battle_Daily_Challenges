@@ -1,0 +1,67 @@
+<div id="topCircle"></div>
+<div id="leftBudCircle"></div>
+<div id="rightBudCircle"></div>
+<div id="whiteRectangle"></div>
+<div id="eye1"></div>
+<div id="eye2"></div>
+<style>
+  *{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+  }
+  body{
+    background:#FEF6E2;
+  }
+  #topCircle{
+    width: 220px;
+    height: 220px;
+    border: 40px solid #ED736E;
+    margin: 30px 90px;
+    border-radius:100%;
+    position:absolute;
+  }
+  #leftBudCircle{
+    width: 100px;
+    height: 130px;
+    position: absolute;
+    margin: 140px 30px;
+    border-end-start-radius:50px 50px;
+    border-end-end-radius: 50px 50px;
+    border-start-start-radius: 60px 60px;
+    background: #ED736E;
+  }
+  #rightBudCircle{
+    width: 100px;
+    height: 130px;
+    position: absolute;
+    margin: 140px 270px;
+    border-end-start-radius:50px 50px;
+    border-end-end-radius: 50px 50px;
+    border-start-end-radius: 60px 60px;
+    background: #ED736E;
+  }
+  #whiteRectangle{
+    width:140px;
+    height:120px;
+    position:absolute;
+    margin:130px 130px;
+    background:#FEF6E2;
+  }
+  #eye1{
+    width:15px;
+    height:30px;
+    background: #ED736E;
+    border-radius:100%;
+    position:absolute;
+    margin:135px 163px;
+  }
+  #eye2{
+    width:15px;
+    height:30px;
+    background: #ED736E;
+    border-radius:100%;
+    position:absolute;
+    margin:135px 223px;
+  }
+</style>
