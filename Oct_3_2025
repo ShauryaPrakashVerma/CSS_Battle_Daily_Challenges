@@ -1,0 +1,62 @@
+<div id="y1"></div>
+<div id="y2"></div>
+<div id="y3"></div>
+<div id="r1"></div>
+<div id="r2"></div>
+<div id="r3"></div>
+<style>
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  body{background:#23384B;}
+  #y1{
+    width: 100px;
+    height: 220px;
+    position:absolute;
+    top:40px;
+    left:30px;
+    background: #F0CD48;
+  }
+  #y2{
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    top:100px;
+    left:150px;
+    background: #F0CD48;
+  }
+  #y3{
+    width: 100px;
+    height: 220px;
+    position:absolute;
+    top:40px;
+    left:270px;
+    background: #F0CD48;
+  }
+  #r1{
+    width:380px;
+    height:140px;
+    position:absolute;
+    top:80px;
+    left:10;
+    border:20px solid #23384B;
+  }
+  #r2{
+    width:260px;
+    height:140px;
+    position:absolute;
+    top:80px;
+    left:70;
+    border:20px solid #23384B;
+  }
+  #r3{
+    width:20px;
+    height:140px;
+    position:absolute;
+    top:80;
+    left:190;
+    background:#23384B;
+  }
+</style>
