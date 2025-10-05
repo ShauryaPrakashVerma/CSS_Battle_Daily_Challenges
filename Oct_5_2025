@@ -1,0 +1,57 @@
+<div class="C" id="topC"></div>
+<div class="C" id="leftC"></div>
+<div class="C" id="rightC"></div>
+<div class="C" id="bottomC"></div>
+<div class="R" id="mainR"></div>
+<div class="R" id="crossR"></div>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    background:#AC5353;
+    position:relative;
+  }
+  .C{
+    background:white;
+    border-radius:100%;
+    background:#222222;
+    position:absolute;
+  }
+  #topC{
+    width:20;
+    height:20;
+    top:20;
+    left:190;
+  }
+  #leftC{
+    width:60;
+    height:60;
+    top:40;
+    left:110;
+  }
+  #rightC{
+    width:60;
+    height:60;
+    top:40;
+    left:230;
+  }
+  #bottomC{
+    width:180;
+    height:180;
+    top:100;
+    left:110;
+  }
+  .R{
+    border:5px solid #222222;
+    position:absolute;
+  }
+  #mainR{
+    width:90;
+    top:65;
+    left:140; 
+  }
+  #crossR{
+    height:90;
+    top:30;
+    left:195;
+  }
+</style>
