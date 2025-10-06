@@ -1,0 +1,23 @@
+<div id="B"></div>
+<div id="W"></div>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:#588A95}
+  #B{
+    position:absolute;
+    width: 140px;
+    height: 140px;
+    top:80;
+    left:130;
+    background: #222222;
+  }
+  #W{
+    position:absolute;
+    width:140;
+    height:140;
+    top:80;
+    left:130;
+    background:#FFFFFF;
+    transform: skew(45deg)
+  }
+</style>
