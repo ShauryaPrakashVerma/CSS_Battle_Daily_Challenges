@@ -1,0 +1,29 @@
+<div class="l" id="tl"></div>
+<div class="l" id="bl"></div>
+<div class="r" id="tr"></div>
+<div class="r" id="br"></div>
+<div class="c" id="cl"></div>
+<div class="c" id="cr"></div>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:#48BF7D}
+  .l{position:absolute;
+    width:175;
+    height:40;
+    border-radius:0 20px 20px 0; 
+    background: #0B2429
+  }
+  #tl{top:55;}
+  #bl{top:205}
+.r{position:absolute;
+    width:175;
+    height:40;
+    border-radius:20px 0 0 20px; 
+    background: #0B2429
+  }
+  #tr{top:55;right:0}
+  #br{top:205;right:0}
+.c{position:absolute;width:40;height:40;border-radius:100%;background:#0B2429;top:130}
+  #cl{left:135}
+  #cr{right:135}
+</style>
