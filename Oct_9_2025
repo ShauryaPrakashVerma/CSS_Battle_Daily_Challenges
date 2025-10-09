@@ -1,0 +1,32 @@
+<div id="R"></div>
+<div id="S"></div>
+<div id="T"></div>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:#F0CD48;}
+  #r{
+    width:240;
+    height:180;
+    border:60px solid #243D83;
+    position:absolute;
+    top:60;
+    left:80;
+  }
+  #S{
+    width:80;
+    height:80;
+    position:absolute;
+    top:60;
+    right:80;
+    background:#F0CD48;
+  }
+  #T{
+    background:#5AA4B7;
+    height:60;
+    width:60;
+    position:absolute;
+    top:60;
+    right:100;
+    clip-path:polygon(0% 0%, 100% 50%, 0% 100%);
+  }
+</style>
