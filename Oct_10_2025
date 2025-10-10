@@ -1,0 +1,40 @@
+<div id="ca"></div>
+<div id="ci"></div>
+<div id="OR"></div>
+<div id="BR"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:#D27644;}
+#ca{
+width:150;
+height:180;
+border-radius: 75px 75px 0 0;
+position:absolute;
+bottom:30;
+left:125;
+background:#000000;}
+#ci{
+position:absolute;
+width:20;
+height:20;
+top:150;
+left:190;
+border-radius:100%;
+background:#FEF6E2;}
+#OR{
+position:absolute;
+width:120;
+height:30;
+top:240;
+left:140;
+background:#D27644;
+}
+#BR{
+position:absolute;
+width:180;
+height:30;
+top:270;
+left:110;
+background:#000000;
+}
+</style>
