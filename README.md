@@ -34,3 +34,9 @@ A repo for storing my solutions for the daily challenges on cssbattle.dev.
 **Oct 9 2025 Target:**
 
 <img width="441" height="382" alt="image" src="https://github.com/user-attachments/assets/b20e0eee-9526-4758-9094-c5192ec0e51d" />
+
+**Oct 10 2025 Target:**
+
+<img width="442" height="375" alt="image" src="https://github.com/user-attachments/assets/0e465a32-0ec8-4de9-84f2-efc6830881c0" />
+
+
