@@ -1,0 +1,32 @@
+<div id="bg">
+  <div class="r">
+    <div class="C"></div>
+    <div class="C"></div>
+    <div class="C"></div>
+    <div class="C"></div>
+  </div>
+  <div class="r">
+    <div class="C"></div>
+    <div class="C"></div>
+    <div class="C"></div>
+    <div class="C"></div>
+  </div>
+  <div class="r">
+    <div class="C"></div>
+    <div class="C"></div>
+    <div class="C"></div>
+    <div class="C"></div>
+  </div>
+</div>
+<style>
+  body{background:#7E6293;display:flex;align-items:center;justify-content:center;}
+  #bg{
+    width: 280;
+    height: 220;
+    background: linear-gradient(to right,#7E6293 21.5%,#EBE77E 21.5% 35.7%,#7E6293 35.7% 64.3%,#EBE77E 64.3% 78.5%,#7E6293 77%100%);
+    display:flex;
+    gap:80px;
+  }
+  .C{width:40;height:40;border-radius:100%;background:#DE817E;}
+  .r{display:flex;flex-direction:column;gap:20px;}
+</style>
