@@ -1,0 +1,15 @@
+<div id="bg1"></div>
+<div id="C"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#4763B1}
+#bg1{
+width:118;
+height:118;
+position:absolute;
+top:91;
+left:141;
+background:linear-gradient(to bottom,transparent 41.7%,#4763B1 41.7% 58.7%,transparent 58.7%),linear-gradient(to right,white 41.7%,#4763B1 41.7% 58.7%,white 58.7%)
+}
+#C{width:40;height:40;border-radius:100%;background:#4763B1;position:absolute;top:130;left:180}
+</style>
