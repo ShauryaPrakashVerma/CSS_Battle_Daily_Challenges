@@ -1,0 +1,39 @@
+<div id="r"></div>
+<div id="sc"></div>
+<div id="rb"></div>
+<div id="scb"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;background:#3B240C}
+body{background:#E8AD6D}
+#r{
+width:60;
+height:100;
+position:absolute;
+top:65;
+left:170;
+border-radius:38px;z-index:3}
+#sc{
+width:160;
+height:160;
+position:absolute;
+top:55;
+left:120;
+border-radius:100%;
+border:30px solid #3B240C;
+background:#E8AD6D}
+#rb{
+width:160;
+height:120;
+position:absolute;
+top:25;
+left:120;
+background:#E8AD6D;
+z-index:2}
+#scb{
+width:30;
+height:40;
+position:absolute;
+top:195;
+left:185;
+border-radius:30px}
+</style>
