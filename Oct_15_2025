@@ -1,0 +1,19 @@
+<div id="R"><div id="T"></div></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#EEC8EA}
+#R{
+  width:370;
+  height:270;
+  margin:15 auto;
+  border:60px solid #8E2C88;
+  background: linear-gradient(#EEC8EA 30%,#8E2C88 30% 70%,#EEC8EA 70%);
+}
+#T{
+  height:270;
+  width:15;
+  position:absolute;
+  background:#EEC8EA;
+  top:15
+}
+</style>
