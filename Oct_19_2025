@@ -1,0 +1,42 @@
+<div id="rr"></div>
+<div id="cr"></div>
+<div id="lr"></div>
+<div id="bgr"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#1A4341}
+#rr{
+position:absolute;
+width:160;
+height:210;
+background:#1A4341;
+border-start-start-radius:80px;
+border-start-end-radius:80px;
+border:30px solid #5A9F48;
+top:5px;
+right:5px}
+#cr{width:120;
+height:30;
+background:#5A9F48;
+position:absolute;
+top:185;
+left:135;}
+#lr{
+position:absolute;
+width:160;
+height:80;
+background:#1A4341;
+border-end-start-radius:80px;
+border-end-end-radius:80px;
+border:30px solid #5A9F48;
+border-top:none;
+bottom:5px;
+left:5px
+}
+#bgr{width:135;
+position:absolute;
+height:180;
+background:#1A4341;
+right:0;
+top:85}
+</style>
