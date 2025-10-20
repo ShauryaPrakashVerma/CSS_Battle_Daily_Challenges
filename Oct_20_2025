@@ -1,0 +1,14 @@
+<div id="l1"></div>
+<div id="l2"></div>
+<div id="l3"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#D8BEC4}
+#l1,#l2,#l3{position:absolute;top:80;width:80;height:140;border-start-end-radius:80px;border-end-start-radius:80px}
+#l1{background:#A34D60;
+left:120}
+#l2{background:#D8BEC4;
+left:160}
+#l3{background:#A34D60;
+left:200}
+</style>
