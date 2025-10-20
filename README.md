@@ -1,5 +1,9 @@
 # CSS_Battle_Daily_Challenges
-A repo for storing my solutions for the daily challenges on cssbattle.dev.
+Welcome to my collection of CSS Battle Daily Challenge Solutions! 
+
+This collection contains my solutions to the [CSS Battle](https://cssbattle.dev/) daily challenges.
+
+---
 
 **Oct 1 2025 Target:**
 
