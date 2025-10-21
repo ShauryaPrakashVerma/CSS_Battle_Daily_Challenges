@@ -1,0 +1,18 @@
+<div id="s1"></div>
+<div id="s2"></div>
+<div id="s3"></div>
+<div id="s4"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#7DDDEB;display:flex;}
+div{width:90;
+height:180;
+background:#4763B1;
+margin-left:10px;
+position:absolute;
+top:60;
+border-radius:0px 90px 90px 0px}
+#s2{left:100}
+#s3{left:190;rotate:180deg}
+#s4{left:290;rotate:180deg}
+</style>
