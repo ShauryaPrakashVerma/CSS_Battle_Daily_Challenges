@@ -1,0 +1,30 @@
+<div id="l1"></div>
+<div id="l2"></div>
+<div id="l3"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#D62E65}
+#l1{
+  width:120;
+  height:180;
+  position:absolute;
+  top:60;
+  left:140;
+  border:30px solid white;
+border-radius:60px 60px 40px 40px;}
+#l2{width:120;
+  height:130;
+  position:absolute;
+  top:110;
+  left:105;
+  background:#D62E65}
+#l3{width:120;
+  height:80;
+  position:absolute;
+  top:160;
+  left:140;
+  border:30px solid white;
+border-radius:50px}
+</style>
+
+#89.6% match
