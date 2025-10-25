@@ -1,0 +1,17 @@
+<div id="bg"></div>
+<div id="l1"></div>
+<div id="l2"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#E8AD6D}
+#bg{
+width:340;
+height:176;
+background:linear-gradient(#3B240C 9%,#E8AD6D 9%45.5%,#3B240C 45%54.5%,#E8AD6D 50%91%,#3B240C 90%);
+position:absolute;
+top:62;left:30}
+#l1{position:absolute;width:30;
+height:196;background:#E8AD6D;top:60;left:290}
+#l2{position:absolute;width:16;
+height:210;background:linear-gradient(#3B240C 24%,#E8AD6D 20%38%,#3B240C 38%62%,#E8AD6D 60%76%,#3B240C 75%);top:45;left:337}
+</style>
