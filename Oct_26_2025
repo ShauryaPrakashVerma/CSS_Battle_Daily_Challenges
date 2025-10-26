@@ -1,0 +1,17 @@
+<div id="tb"></div>
+<div id="m"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#3F4869}
+#tb{
+  width:210;
+  height:290;
+  background:linear-gradient(#DE6B67 24%,#3F4869 20%76%,#DE6B67 76%);
+position:absolute;
+top:5;left:94;border-radius:145px}
+#m{
+width:210;
+height:200;
+background:linear-gradient(#FFFFFF00 32%,#DE6B67 32%67%,#FFFFFF00 67%);
+position:absolute;top:51;left:95;border-radius:50%}
+</style>
