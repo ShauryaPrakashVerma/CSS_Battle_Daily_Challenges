@@ -1,0 +1,13 @@
+<div id="b" class="t"></div>
+<div id="a" class="t"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;position:absolute}
+body{background:#FFFCE2}
+.t{width:300;height:220;top:40;
+  left:50;
+  background:#C1A162;
+  border-radius:149px 149px 0 0;}
+#a{height:150;
+  border:80px solid #7C3219;
+  border-bottom:none;}
+</style>
