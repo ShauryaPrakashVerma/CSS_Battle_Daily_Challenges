@@ -1,0 +1,13 @@
+<div id="r1"></div>
+<div id="r2"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#243D83}
+#r1{
+width:320;
+height:200;
+background:linear-gradient(to right,#243D83 9.5%,#F0CD48 9%18.6%,#243D83 18%45.4%,#F0CD48 40%54.7%,#243D83 50%81.3%,#F0CD48 81%90.5%,#243D83 90%);position:absolute;top:50;left:40;border:40px solid #F0CD48;border-left:none;border-right:none;}
+#r2{width:270;
+height:40;
+background:linear-gradient(to right,#F0CD48 15%,#243D83 10%42.5%,#F0CD48 42%57.4%,#243D83 50%85.2%,#F0CD48 85%);position:absolute;top:130;left:65}
+</style>
