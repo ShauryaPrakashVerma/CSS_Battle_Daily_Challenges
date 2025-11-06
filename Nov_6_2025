@@ -1,0 +1,13 @@
+<div id="bg">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#556D7F}
+#bg{width:320;
+height:230;
+margin:35 40;display:flex;justify-content:space-between}
+#bg div{background:#EBCB58;height:230;width:100} 
+</style>
