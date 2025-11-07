@@ -1,0 +1,15 @@
+<div id="p1"></div>
+<div id="p2"></div>
+<div id="g1"></div>
+<div id="g2"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#FFF8EA}
+div{width:120;
+height:50;
+background:#DA6C8E;
+position:absolute;top:90;left:70;border-radius:30px;}
+#p2{top:160;left:210}
+#g1,#g2{background:#81D2B0;rotate:90deg;top:55;left:175;}
+#g2{top:195;left:105}
+</style>
