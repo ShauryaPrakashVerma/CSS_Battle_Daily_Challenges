@@ -1,0 +1,13 @@
+<div id="lt"></div>
+<div id="rt"></div>
+<div id="ct"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:#6F9893;padding:13 23;display:flex;gap:80px}
+div{
+width:137;
+height:273;
+background:#D9D9D9;clip-path: polygon(0 50%, 100% 100%, 100% 0)}
+#rt{rotate:180deg;}
+#ct{position:absolute;height:141;width:80;background:#394257;clip-path: polygon(0 28%,49% 0%, 100% 28%, 100% 72% ,49% 100%,0 72%);top:79;left:160}
+</style>
