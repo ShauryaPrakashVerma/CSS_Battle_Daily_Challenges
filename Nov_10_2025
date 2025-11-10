@@ -1,0 +1,31 @@
+<div id="c">
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+</div>
+<div id="c">
+  <div></div>
+<div></div>
+</div>
+<div id="c">
+  <div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#984E77;display:flex;flex-direction:column;align-items:center;gap:5px;padding:55}
+#c{
+width:280;
+height:60;display:flex;justify-content:space-between}
+#c div{height:100%;width:30;background:#CDC5A5}
+#c:nth-child(2){display:flex;justify-content:center;align-items:center;gap:20px}
+#c:nth-child(2) div
+{height:30;border-radius:100%}
+</style>
