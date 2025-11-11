@@ -1,0 +1,18 @@
+<div id="c"></div>
+<div id="bg">
+  <div id="r1"></div>
+  <div></div>
+</div>
+<div id="r"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#050044;display:flex;justify-content:center;align-items:center}
+#bg{position:absolute;width:300;height:200;display:flex;flex-direction:column;justify-content:space-between;align-items:center}
+#bg div{
+  width:100%;
+  height:40;
+  background:#A4215D;}
+#bg #r1{width:87%}
+#c{width:180;height:180;position:absolute;border-radius:100%;border:40px solid #F3EAD2;top:30}
+#r{position:absolute;width:200;height:50;background:#050044;top:0}
+</style>
