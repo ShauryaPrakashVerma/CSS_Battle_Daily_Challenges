@@ -1,0 +1,13 @@
+<div id=b></div>
+<div id=v></div>
+<div id=h></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#264629;display:flex;justify-content:center;align-items:center;}
+#b{
+width:220;
+height:220;
+background:#CF6939;border:40px solid#F8B140}
+#v{width:20;height:220;background:linear-gradient(#264629 36.5%,#CF6939 36%63.5%,#264629 63%);position:absolute}
+#h{width:220;height:20;background:linear-gradient(to right,#264629 36.5%,#CF6939 36%63.5%,#264629 63%);position:absolute}
+</style>
