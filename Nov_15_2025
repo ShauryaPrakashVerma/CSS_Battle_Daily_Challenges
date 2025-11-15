@@ -1,0 +1,17 @@
+<div id="bg">
+  <div></div>
+  <div></div>
+</div>
+<div id="l"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#FAD98C;display:flex;justify-content:center;align-items:center}
+#bg{
+width:300;
+height:190;
+background:#89B3EC;display:flex;flex-direction:column;align-items:center;}
+#bg div{width:280;height:70;background:#2A2828}
+#bg :nth-child(1){height:30}
+#bg :nth-child(2){background:linear-gradient(to right,#2A2828 35.8%,transparent 30%64.4%,#2A2828 60%)}
+#l{position:absolute;height:130;width:70;border-left:40px solid #3C5A84;top:85;left:180;border-bottom:30px solid #3C5A84}
+</style>
