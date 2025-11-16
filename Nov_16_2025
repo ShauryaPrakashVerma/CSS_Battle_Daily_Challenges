@@ -1,0 +1,17 @@
+<div id="c1"></div>
+<div id="c2"></div>
+<div id="s"></div>
+<div id="s1"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#8CFADC}
+#c1,#c2{
+width:120;
+height:121;
+border-radius:100%;position:absolute;
+top:98;left:121;
+background:#1A4341;}
+#c2{left:159}
+#s{position:absolute;height:90;width:90;background:#8CFADC;top:69;left:155;rotate:45deg}
+#s1{position:absolute;height:50;width:50;background:#1A4341;top:95;left:175;rotate:45deg}
+</style>
