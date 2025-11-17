@@ -1,0 +1,14 @@
+<div id="or">
+  <div id="mr"></div>
+  <div id="ir"></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#FEF7F5;display:flex;justify-content:center;align-items:center}
+div{
+width:340;
+height:240;
+background:#FEF7F5;border:20px solid #555FD9;border-left:none;}
+#mr{width:290;height:160;position:absolute;top:70;right:30;rotate:180deg}
+#ir{width:258;height:80;position:absolute;top:110;left:80;border-right:18px solid#555FD9}
+</style>
