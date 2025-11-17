@@ -178,3 +178,7 @@ This collection contains my solutions to the [CSS Battle](https://cssbattle.dev/
 **Nov 16 2025 Target:**
 
 <img width="446" height="378" alt="image" src="https://github.com/user-attachments/assets/ed52c776-2164-4d1e-8ae3-d1833688b590" />
+
+**Nov 17 2025 Target:**
+
+<img width="442" height="376" alt="image" src="https://github.com/user-attachments/assets/07631499-b3dd-46de-9755-3618b37e8784" />
