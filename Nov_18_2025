@@ -1,0 +1,13 @@
+<div></div>
+<div></div>
+<div></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#555FD9;display:flex;justify-content:space-between;align-items:center}
+div{
+width:90;
+height:200;
+border:20px solid#F2A842}
+body :nth-child(2){width:180;border-right:40px solid#F2A842;border-left:40px solid#F2A842}
+body :nth-child(1),body :nth-child(3){border-right:none;border-left:none}
+</style>
