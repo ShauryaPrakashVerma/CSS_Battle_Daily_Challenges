@@ -1,0 +1,12 @@
+<div></div>
+<div></div>
+<div></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#D86F45;display:flex;justify-content:center;align-items:center}
+div{
+width:290;
+height:90;border:20px solid#FFFFFF;background:#D86F45}
+body :nth-child(2){position:absolute;top:105;rotate:90deg;width:210;}
+body :nth-child(3){position:absolute;background:linear-gradient(transparent 43%,#D86F45 40%57%,transparent 50%);width:110;height:230;border:10px solid #D86F45}
+</style>
