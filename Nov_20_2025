@@ -1,0 +1,25 @@
+<div id="bg">
+<div id="r1">
+<div></div>
+</div>
+<div id="r2">
+<div></div>
+<div></div>
+</div>
+<div id="r3">
+<div></div>
+</div>  
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#EED9D9;display:flex;justify-content:center;align-items:center}
+#bg{
+width:150;
+height:150;}
+#r1, #r2, #r3{display:flex;justify-content:center}
+#bg div{width:100%;height:50px}
+#r1 div, #r2 div, #r3 div{background:#668884;width:50;border-top-left-radius:26px;border-bottom-left-radius:26px}
+#bg #r2{justify-content:space-between}
+#r2 div{background:#C67455}
+#r2 :nth-child(2){rotate:180deg}
+</style>
