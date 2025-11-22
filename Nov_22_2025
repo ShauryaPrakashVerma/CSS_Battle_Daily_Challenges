@@ -1,0 +1,23 @@
+<div id="bg">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div id="cbg">
+  <div></div>
+  <div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#328FC1;display:flex;justify-content:center;align-items:center}
+#bg{
+width:180;
+height:160;display:flex;flex-direction:column;justify-content:space-between}
+#bg div{
+width:100%;
+height:30;
+background:#F5D6B4;}
+#bg :nth-child(2){height:60}
+#cbg{height:290;width:700;position:absolute;display:flex;justify-content:space-between;align-items:center}
+#cbg div{width:290;height:280;border:29px solid#F5D6B4;border-radius:100%;}
+</style>
