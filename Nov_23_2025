@@ -1,0 +1,17 @@
+<div id="a"></div>
+<div id="b"></div>
+<div id="c"></div>
+<div id="d"></div>
+<div id="e"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#51A499;display:flex;justify-content:center;align-items:center}
+div{
+position:absolute;
+background:#EDED87}
+#a{width:280;height:90}
+#b{background:#000000;width:240;height:110}
+#c{width:200;height:130}
+#d{background:#000000;width:160;height:150}
+#e{width:120;height:180}
+</style>
