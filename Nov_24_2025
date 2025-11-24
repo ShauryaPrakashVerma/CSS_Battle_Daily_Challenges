@@ -1,0 +1,15 @@
+<div id="c"></div>
+<div id="rc"></div>
+<div id="r"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:linear-gradient(#D95362 66.6%,#FFF9C0 60%73.5%,#D95362 70%)}
+#r{
+position:absolute;
+top:120;left:170;
+width:60;
+height:100;
+background:#FFF9C0}
+#c{width:60;height:60;position:absolute;top:80;left:170;border-radius:100%;border:20px solid#FFF9C0}
+#rc{position:absolute;width:60;height:10px;background:#D95362;top:110;left:170}
+</style>
