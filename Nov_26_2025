@@ -1,0 +1,23 @@
+<div id="c"></div>
+<div id="ml"></div>
+<div id="rr"></div>
+<div id="l1"></div>
+<div id="l2"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#62306D;display:flex;justify-content:center}
+#c{
+width:280;
+height:280;
+border:100px solid#FFFFFF;
+border-radius:100%;position:absolute;top:30}
+#ml{
+width:440;
+height:200;
+border:20px solid #FFFFFF;
+position:absolute;
+top:170}
+#rr{width:280;height:200;background:#62306D;position:absolute;top:170}
+#l2{width:21;height:160;background:#FFFFFF;position:absolute;top:140;rotate:39deg;left:16}
+#l1{width:21;height:160;background:#FFFFFF;position:absolute;top:140;rotate:-39deg;right:16}
+</style>
