@@ -1,0 +1,31 @@
+<div id="bg"></div>
+<div id="p"></div>
+<div id="s">
+<div id="t">
+<div></div>
+<div></div>
+</div>
+<div id="m"></div>
+<div id="b">
+  <div></div>
+<div></div>
+</div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#3F4869;display:flex;justify-content:center;align-items:center}
+#bg{
+width:260;
+height:260;border:20px solid#70B7A5}
+#p{width:180;height:180;position:absolute;background:#70B7A5;clip-path: polygon(0 36%, 36% 36%, 36% 0%, 64% 0%, 64% 36%, 100% 36%, 100% 64%, 64% 64%, 64% 100%, 36% 100%, 36% 64%, 0 64%);}
+#s{width:260;height:260;position:absolute;display:flex;flex-direction:column;justify-content:space-between;align-items:center}
+#s div{height:50;width:260}
+#t,#b{display:flex;justify-content:space-between}
+#s #m{height:50;width:50;background:#3F4869}
+#b{align-items:flex-end}
+#t div,#b div{height:40;width:40;background:#3F4869}
+#b :nth-child(1){width:35}
+#b :nth-child(2){width:45}
+
+
+</style>
