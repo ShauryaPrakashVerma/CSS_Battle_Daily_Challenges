@@ -1,0 +1,17 @@
+<div id="rr"></div>
+<div id="s"></div>
+<div id="br"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#D86F45;display:flex;justify-content:center;align-items:center}
+#rr{
+width:200;
+height:160;
+background:#F5D6B4;
+border-radius:20px;}
+#s{width:200;
+height:160;
+position:absolute;top:50;left:80;z-index:-1;
+background:#734939;}
+#br{position:absolute;width:90;height:40;background:#D86F45;top:110;left:220}
+</style>
