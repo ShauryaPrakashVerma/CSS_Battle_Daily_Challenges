@@ -1,0 +1,15 @@
+<div></div>
+<div id="b"></div>
+<div id="c"></div>
+<div id="d"></div>
+<div></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#E38F66;display:flex;justify-content:cent;align-items:center}
+div{
+width:60;
+height:70;
+background:#F7F3D7}
+#c{width:140;height:140}
+#b,#d{rotate:45deg;width:70}
+</style>
