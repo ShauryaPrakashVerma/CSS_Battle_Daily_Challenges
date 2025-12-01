@@ -1,0 +1,16 @@
+<div id="c1"></div>
+<div id="r2">
+<div></div>
+</div>
+<div id="c3"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#2F434E;display:flex;flex-direction:column;align-items:center;gap:20px;padding:10px}
+#c1,#c3{
+width:130;
+height:130;
+background:#CF6939;border-radius:100%}
+#c1{background:#F8B140}
+#r2{width:100;height:100;position:absolute;background:#F8B140;top:100;padding:10}
+#r2 div{height:80;width:80;border-radius:100%;border:10px solid #CF6939}
+</style>
