@@ -1,0 +1,13 @@
+<div id="a"></div>
+<div id="b"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#696448}
+div{
+width:140;
+height:140;position:absolute;
+top:80;left:100;border-radius:100%;
+border:30px solid#222222}
+#a{background:linear-gradient(to right,#696448 70%,white 70%)}
+#b{left:160}
+</style>
