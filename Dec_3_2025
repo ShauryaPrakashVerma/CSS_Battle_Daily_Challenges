@@ -1,0 +1,14 @@
+<div id="m"></div>
+<div id="a"></div>
+<div id="b"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#C8AD17;display:flex;justify-content:center;align-items:center}
+div{
+width:220;
+height:110;
+background:#EEEEEE;border:20px solid #222222;position:absolute}
+#m{border-start-start-radius:30px;border-start-end-radius:30px}
+#a{top:55;width:120;z-index:-1}
+#b{top:165;width:120;height:80}
+</style>
