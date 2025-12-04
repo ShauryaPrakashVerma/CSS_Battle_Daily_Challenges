@@ -1,0 +1,11 @@
+<div id="l"></div>
+<div id="c"></div>
+<div id="r"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#E8AD6D;display:flex;justify-content:center;align-items:center}
+#c{
+width:160;
+height:160;border:30px solid#2F5A76;border-left-width:60px;border-right-width:60px}
+#l,#r{width:60;height:100;background:#DE6B67}
+</style>
