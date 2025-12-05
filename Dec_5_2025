@@ -1,0 +1,18 @@
+<div id="bg"></div>
+<div id="e"></div>
+<div id="m"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#32955E}
+div{position:absolute}
+#bg{
+width:200;
+height:200;
+background:#FFFFFF;
+top:160;left:100;
+border-start-start-radius:65px;
+border-start-end-radius:67%}
+#e{width:20;height:20;background:#000000;border-radius:100%;top:220;left:230}
+#m{height:40;width:90;background:#32955E;border-radius:20px;
+top:250;left:250}
+</style>
