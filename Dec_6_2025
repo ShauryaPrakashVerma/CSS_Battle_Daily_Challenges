@@ -1,0 +1,15 @@
+<div id="b"></div>
+<div id="c"></div>
+<div id="d"></div>
+<div id="bg"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#243D83;display:flex;justify-content:center;align-items:center}
+#bg{
+width:150;
+height:150;
+border-radius:40px;border:10px solid #F0CD48;position:absolute;box-shadow:0 0 1px 1000px #243D83}
+#c,#d,#b{width:250;height:152;border-radius:100%;background:#243D83;position:absolute;top:110;left:75}
+#b{background:#F0CD48;top:10}
+#d{background:#F0CD48;top:160;height:185}
+</style>
