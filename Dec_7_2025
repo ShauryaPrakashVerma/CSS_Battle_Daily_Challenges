@@ -1,0 +1,21 @@
+<div id="bg"></div>
+<div id="r">
+  <div id="s">
+    <div id="c"></div>
+  </div>
+  <div id="s">
+    <div id="c"></div>
+  </div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#E3516E;display:flex;justify-content:center;align-items:center}
+#bg{
+width:220;
+height:100;
+background:#511818}
+#r{width:80;position:absolute;
+height:220;margin-top:40px;display:flex;flex-direction:column;justify-content:space-between}
+#s{width:80;height:80;background:#E3516E;display:flex;justify-content:center;align-items:center}
+#c{width:40;height:40;background:#511818;border-radius:100%}
+</style>
