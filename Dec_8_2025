@@ -1,0 +1,23 @@
+<div id="bg">
+  <div id="a">
+    <div></div>
+    <div></div>
+  </div>
+  <div id="b"></div>
+  <div id="c">
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#7DDDEB}
+div{
+background:#2A4CAC}
+#bg{width:340;height:220;margin:40 30;display:flex;flex-direction:column;justify-content:space-between;background:none}
+#bg div{width:100%}
+#a{height:30;background:none;display:flex;justify-content:space-between}
+#b{height:60;background:#2A4CAC}
+#c{height:90;background:none;display:flex;justify-content:space-between}
+#a div,#c div{height:100%;width:30}
+</style>
