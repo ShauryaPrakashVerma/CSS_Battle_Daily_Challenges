@@ -1,0 +1,17 @@
+<div id="bg">
+<div id="r"></div>
+<div id="r"></div>
+<div id="r"></div>
+</div>
+<div id="l"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#202F8E;display:flex;align-items:center;justify-content:center}
+#bg{width:360;height:50;display:flex;gap:30px}
+#r{
+width:100;
+height:50;
+background:#7982BB;border-radius:30px}
+#bg :nth-child(1),#l{background:#FFFFFF}
+#l{width:100;height:20;position:absolute;left:20;top:185}
+</style>
