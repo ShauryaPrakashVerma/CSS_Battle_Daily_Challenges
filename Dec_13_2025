@@ -1,0 +1,8 @@
+<div id="w"></div>
+<div id="b"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#A33E52;display:flex;justify-content:center;align-items:center}
+#w{width:360;height:200;border:60px solid #D9D9D9}
+#b{position:absolute;width:300;height:200;border:30px solid#482222}
+</style>
