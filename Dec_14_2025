@@ -1,0 +1,16 @@
+<div id="b1"></div>
+<div id="b2"></div>
+<div id="c"></div>
+<div id="r"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#F3AC3C;display:flex;justify-content:center;align-items:center;gap:30px}
+#b1,#b2{
+width:150;
+height:150;
+background:#492D01;border-radius:100%}
+#b2{border:30px solid#F3AC3C}
+#c,#r{position:absolute;background:#492D01}
+#c{width:90;height:90;border-radius:100%;z-index:-1}
+#r{width:30;height:100;top:155;left:155}
+</style>
