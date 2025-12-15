@@ -1,0 +1,11 @@
+<div id="b"></div>
+<div id="t"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0B2429;display:flex;justify-content:center;align-items:center}
+#b{
+width:220;
+height:170;
+background:linear-gradient(#CE6F4A 17.5%,#0B2429 17%29.5%,#CE6F4A 27%);position:absolute;top:80;border-radius:20px}
+#t{width:140;height:80;border-radius:20px;position:absolute;background:#CE6F4A;top:50;left:90;z-index:-1}
+</style>
