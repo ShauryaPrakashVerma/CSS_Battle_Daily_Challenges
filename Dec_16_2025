@@ -1,0 +1,25 @@
+<div id="bg">
+  <div id="r1">
+    <div id="h"></div>
+    <div id="v"></div>
+    <div id="h"></div>
+  </div>
+  <div id="r2">
+    <div id="v"></div>
+    <div id="h"></div>
+    <div id="v"></div>
+  </div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#C06C88;display:flex;justify-content:center;align-items:center}
+#bg{
+width:240;
+height:160;
+background:#411C56;padding:20px}
+#r1,#r2{width:100%;height:60;display:flex;justify-content:space-between}
+#h{height:40;width:60;background:#B7D7CD}
+#v{height:60;width:40;background:#B7D7CD}
+#r2 :nth-child(1){margin:20 20 0 0}
+#r2 :nth-child(2){margin-top:20}
+</style>
