@@ -1,0 +1,16 @@
+<div id="r1"></div>
+<div id="r2"></div>
+<div id="r3"></div>
+<div id="r4"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#7E6293}
+div{border:20px solid#E8BA79;
+position:absolute;left:35}
+#r1{
+width:240;
+height:140;top:125}
+#r2{width:290;height:190;top:75}
+#r3{top:35;width:330;height:230;border-top:none;border-right:none}
+#r4{top:35;left:325}
+</style>
