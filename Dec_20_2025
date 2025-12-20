@@ -1,0 +1,15 @@
+<div id="c">
+  <div></div>
+  <div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#1C204E;display:flex;justify-content:center;align-items:center}
+#c{
+width:200;
+height:200;
+background:#FEF7F5;
+border-radius:100%;
+border:30px solid#E7772F;display:flex;justify-content:center;align-items:center;gap:60px}
+#c div{width:20;height:60;background:#1C204E}
+</style>
