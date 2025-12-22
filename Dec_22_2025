@@ -1,0 +1,13 @@
+<div id="a"></div>
+<div id="b"></div>
+<div id="c"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#FEF6E2;padding:25 0}
+#a, #b{
+width:120;
+height:120;
+background:#ED736E}
+#b{margin:10 0 0 280}
+#c{position:absolute;width:200;height:200;background:#FEF6E2;border-radius:100%;top:50;left:100}
+</style>
