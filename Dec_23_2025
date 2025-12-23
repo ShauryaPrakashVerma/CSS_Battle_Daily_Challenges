@@ -1,0 +1,17 @@
+<div id="c"></div>
+<div id="r">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div id="c"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#DACFA3;display:flex;justify-content:center;align-items:center;gap:20px}
+#r{
+width:80;
+height:300;display:flex;flex-direction:column;justify-content:space-between}
+#r div{width:80;height:90;background:#2D3464}
+#r :nth-child(2){height:100}
+#c{width:80;height:80;background:#D95362;border-radius:100%}
+</style>
