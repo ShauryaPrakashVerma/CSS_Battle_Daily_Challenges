@@ -1,0 +1,14 @@
+<div id="bg">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<div id="c"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#302562;display:flex;justify-content:center;align-items:center}
+#bg{width:220;height:300;display:flex;flex-direction:column;align-items:center;justify-content:space-between}
+#bg div{height:40;width:170;background:#0098D1}
+#bg :nth-child(2){height:150;width:220}
+#c{width:80;height:200;background:#0098D1;position:absolute}
+</style>
