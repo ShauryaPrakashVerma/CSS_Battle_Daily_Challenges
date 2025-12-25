@@ -1,0 +1,19 @@
+<div id="bg">
+  <div id="y"></div>
+  <div class="lg"></div>
+  <div class="dg"></div>
+  <div class="lg"></div>
+  <div class="dg"></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#11092D;display:flex;justify-content:center;align-items:center}
+#bg div{width:20;height:20;background:#FFCA00}
+#bg{
+width:140;
+height:180;display:flex;flex-direction:column;justify-content:space-between;align-items:center}
+#bg .lg{background:#1BBC63;width:50}
+#bg :nth-child(4){width:110}
+#bg .dg{background:#0F6B38;width:80}
+#bg :nth-child(5){width:140}
+</style>
