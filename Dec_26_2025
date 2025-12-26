@@ -1,0 +1,18 @@
+<div id="l1">
+<div class="l"></div>
+<div></div>
+</div>
+<div id="l2">
+<div></div>
+<div class="l"></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#A82973;display:flex;flex-direction:column;margin:75 130;gap:10px}
+#l1,#l2{width:140;height:70;display:flex;justify-content:space-between;align-items:center;}
+#l1 div, #l2 div{
+width:60;
+height:60;
+background:#EEC8EA;rotate:10deg}
+#l1 .l, #l2 .l{rotate:-10deg}
+</style>
