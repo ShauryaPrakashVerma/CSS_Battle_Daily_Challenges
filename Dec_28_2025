@@ -1,0 +1,17 @@
+<div class="bg">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<div class="bg" id="sb">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:linear-gradient(to right,#74B15C 22.5%,#1A552B 22%37.5%,#74B15C 37%62.5%,#1A552B 62%77.5%,#74B15C 77%);display:flex;justify-content:space-evenly;align-items:center}
+.bg{width:155;height:220}
+.bg div{width:150;height:60;background:#1A552B;margin-bottom:20}
+#sb{padding-left:5}
+</style>
