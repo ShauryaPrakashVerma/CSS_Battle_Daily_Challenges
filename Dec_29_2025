@@ -1,0 +1,16 @@
+<div id="r1"></div>
+<div id="r2"></div>
+<div id="cr">
+<div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#E38F66}
+#r1,#r2{position:absolute;
+width:120;
+height:120;
+background:#FFFBDA;top:60;left:190}
+#r2{top:120;left:90}
+#cr{position:absolute;width:120;height:120;top:90;left:140;border:30px solid#E38F66;border-start-end-radius:50px;border-end-start-radius:50px}
+#cr div{width:60;height:60;background:#FFFBDA}
+</style>
