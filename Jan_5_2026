@@ -1,0 +1,21 @@
+<div id="bg">
+<div id="t">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<div id="b">
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+</div>
+</div>
+<style>
+*{margin:0;padding:0;bpx-sizing:border-box}
+body{background:#8647E6;display:flex;justify-content:center}
+#bg{width:392;height:300;background:#EFEB99}
+#t, #b{width:100%;height:130;margin:0 0 40 0;display:flex;justify-content:space-between}
+#t{justify-content:space-evenly}
+#t div,#b div{width:56;height:130;background:#8647E6}
+</style>
