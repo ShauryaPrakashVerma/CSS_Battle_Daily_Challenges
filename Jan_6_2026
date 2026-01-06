@@ -1,0 +1,18 @@
+<div id="c"></div>
+<div id="v">
+  <div></div>
+  <div></div>
+</div>
+<div id="h">
+  <div></div>
+  <div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#F3EAD2;display:flex;justify-content:center;align-items:center}
+#c{width:60;height:60;background:#38483C;z-index:10}
+#v,#h{background:#C36768;position:absolute;display:flex;justify-content:space-between}
+#v{width:40;height:260;flex-direction:column}
+#h{width:260;height:40}
+#v div,#h div{width:40;height:40;background:#38483C}
+</style>
