@@ -1,0 +1,20 @@
+<div id="a">
+  <div></div>
+  <div></div>
+</div>
+<div id="b"></div>
+<div id="c">
+  <div></div>
+  <div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#2F434E}
+#a,#b,#c{top:85;left:15;
+position:absolute;
+width:370;
+height:70;display:flex;justify-content:flex-start;gap:50px}
+#b{background:#CF6939;top:115;z-index:2;width:270;margin:0 50}
+#c{top:145;z-index:3;justify-content:flex-end}
+body div div{width:110;height:70;background:#CF6939}
+</style>
