@@ -1,0 +1,15 @@
+<div id="vb">
+  <div></div>
+  <div></div>
+</div>
+<div id="v"></div>
+<div id="h"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#F2EAA8;display:flex;justify-content:center;align-items:center}
+#vb{
+width:330;
+height:220;border-top:40px solid#EE7667;border-bottom:40px solid#84BE8D;display:flex;justify-content:center;gap:200px}
+#vb div{height:100%;width:40;background:linear-gradient(#EE7667 36%,#F2EAA8 35% 64%,#84BE8D 64%)}
+#v{position:absolute;width:150;height:220;background:#F2EAA8}
+</style>
