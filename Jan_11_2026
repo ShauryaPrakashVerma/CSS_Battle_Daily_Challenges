@@ -1,0 +1,20 @@
+<div id="w"></div>
+<div id="b"></div>
+<div id="c">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#5AA4B7}
+#w{width:120;height:130;position:absolute;top:45;left:180;background:#F9EAF1}
+#b{width:120;height:130;position:absolute;top:125;left:100;background:#4C455B}
+#c{width:40;height:50;position:absolute;top:125;left:180;background:red;display:flex;flex-direction:column}
+#c div{width:40;height:10}
+#c :nth-child(odd){background:#5AA4B7}
+#c :nth-child(2){background:#F9EAF1}
+#c :nth-child(4){background:#4C455B}
+</style>
