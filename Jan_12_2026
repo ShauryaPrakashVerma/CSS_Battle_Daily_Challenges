@@ -1,0 +1,12 @@
+<div id="r"></div>
+<div id="y"></div>
+<div class="b"></div>
+<div class="b"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#FADE8B;display:flex;justify-content:center;align-items:center}
+#r{position:absolute;width:160;height:180;border:60px solid#222222;border-top:none;background:#FADE8B}
+.b{width:240;top:60;left:0;position:absolute;height:240;border:60px solid#222222;border-radius:50%;z-index:-2}
+body :nth-child(3){left:160}
+#y{position:absolute;width:400;height:150;background:#FADE8B;z-index:-1;top:180}
+</style>
