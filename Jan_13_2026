@@ -1,0 +1,22 @@
+<div id="t">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+<div id="c">
+  <div></div>
+  <div></div>
+</div>
+<div id="b">
+  <div></div>
+  <div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#45B45B;display:flex;flex-direction:column;padding:30 20;gap:10px}
+#t,#b{width:360;height:50;display:flex;justify-content:space-between}
+#c{width:360;height:120;display:flex;justify-content:space-between}
+#t div,#b div{width:50;height:50;background:#194247}
+#c div{width:50;height:120;background:#194247}
+#t :nth-child(2){border-radius:50%}
+</style>
