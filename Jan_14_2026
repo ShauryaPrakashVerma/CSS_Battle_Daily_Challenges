@@ -1,0 +1,25 @@
+<div id="bg">
+  <div class="c"></div>
+  <div id="s">
+    <div></div>
+    <div></div>
+  </div>
+  <div class="c"></div>
+</div>
+<div id="bg">
+  <div class="c"></div>
+  <div id="s">
+    <div></div>
+    <div></div>
+  </div>
+  <div class="c"></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#A82973;display:flex;justify-content:space-between}
+#bg{width:42%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;margin:0 1}
+#bg div{width:110;height:120;background:#FFD0FA}
+#bg .c{width:50;height:50;border-radius:50%}
+#bg #s{margin:10;display:flex;justify-content:space-between;background:none}
+#s div{background:#FFD0FA;width:50;}
+</style>
