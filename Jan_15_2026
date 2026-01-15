@@ -1,0 +1,26 @@
+<div id="l">
+<div></div>
+</div>
+<div id="bg">
+<div id="r">
+<div></div>
+<div></div>
+</div>
+<div id="r">
+<div></div>
+<div></div>
+</div>
+</div>
+<div id="f">
+<div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#5AA4B7;display:flex;justify-content:center;align-items:center}
+#bg{width:150;height:150;background:#2B2A4A;display:flex;flex-direction:column;justify-content:space-between}
+#r{width:100%;height:47%;display:flex;justify-content:space-around;align-items:center;gap:10px}
+#r div{width:50;height:50;background:#5AA4B7;border-radius:50%}
+#l,#f{height:150;width:70}
+#l div,#f div{width:50;height:50;border-radius:50%;background:#2B2A4A;margin:10}
+#f div{margin:90 10}
+</style>
