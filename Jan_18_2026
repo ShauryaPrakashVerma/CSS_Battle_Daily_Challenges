@@ -1,0 +1,14 @@
+<div></div>
+<div></div>
+<div></div>
+<div class="l f"></div>
+<div class="l s"></div>
+<div class="l t"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#668884;height:100%;display:flex;justify-content:space-evenly;align-items:center;}
+div{width:40;height:240;background:#EED9D9}
+.l{height:40;width:100;position:absolute;top:30;left:90}
+.s{width:70;left:275}
+.t{top:130}
+</style>
