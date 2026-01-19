@@ -1,0 +1,15 @@
+<div class="o l">
+<div></div>
+</div>
+<div class="o r">
+<div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#DE9473;display:flex;justify-content:space-between;align-items:center;padding:10}
+.o{width:140;height:140;border:30px solid#F9EAF1}
+.l{border-right:transparent}
+.r{border-left:none}
+.o div{width:80;height:80;border:25px solid#394257;border-left:none;border-right:none}
+.r div{margin-left:30}
+</style>
