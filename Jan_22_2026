@@ -1,0 +1,8 @@
+<div id="b"></div>
+<div id="s"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#C7B46D;display:flex;justify-content:center;align-items:center}
+#b{width:160;height:160;background:#38373A;border-radius:50%}
+#s{position:absolute;width:160;height:40;background:#8B7E4C;border-radius:50%;left:40;top:190;z-index:-1}
+</style>
