@@ -1,0 +1,8 @@
+<div id="b"></div>
+<div id="c"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#D5ACAD;display:flex;justify-content:center;align-items:center}
+#b{width:200;height:200;background:#F4DA64;border-radius:50%;border:60px solid#401C1D}
+#c{width:80;height:80;background:#401C1D;border-radius:50%;position:absolute;top:170}
+</style>
