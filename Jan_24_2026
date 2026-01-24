@@ -1,0 +1,14 @@
+<div id="b">
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+</div>
+<style>
+*{MARGIN:0;PADDING:0;BOX-SIZING:border-box}
+body{background:#37B4BD;display:flex;justify-content:center;align-items:center}
+#b{width:360;height:60;background:#F9EAF1;display:flex}
+#b div{width:30;height:30;background:#394257;margin-left:30}
+</style>
