@@ -1,0 +1,10 @@
+<div id="a"></div>
+<div id="b"></div>
+<div id="b"></div>
+<div id="a"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#E3DCD1;display:flex;justify-content:center;align-items:center}
+#a{width:60;height:30;background:#5370D9;margin:0 20 170 20}
+#b{width:80;height:200;border:30px solid#5370D9;border-top:none;}
+</style>
