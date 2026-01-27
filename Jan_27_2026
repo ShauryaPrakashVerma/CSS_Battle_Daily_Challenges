@@ -1,0 +1,15 @@
+<div class="a c">
+  <div></div>
+</div>
+<div id="m"></div>
+<div class="b c">
+  <div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#4A9A86;padding:40 50}
+.c{width:100;height:120;background:#F7CB71;border-radius:50%;display:flex;justify-content:center;align-items:center}
+.b{margin:-20 200}
+.c div{width:20;height:60;background:#4A9A86}
+#m{position:absolute;width:143;height:220;background:#F7CB71;top:40;left:128;clip-path: polygon(56% 0%, 100% 0%, 44% 100%, 0% 100%);}
+</style>
