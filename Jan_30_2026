@@ -1,0 +1,13 @@
+<div id="r"></div>
+<div id="c">
+<div></div>
+<div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#F3EAD2;display:flex;justify-content:center;align-items:center}
+#r{width:160;height:180;border:30px solid#4C455B}
+#r div{width:80;height:70;background:red;border-radius:50%}
+#c{position:absolute;width:80;height:180;display:flex;flex-direction:column;gap:20px}
+#c div{width:80;height:80;background:#4C455B;border-radius:50%}
+</style>
