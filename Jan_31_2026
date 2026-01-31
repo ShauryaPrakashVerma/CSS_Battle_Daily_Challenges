@@ -1,0 +1,19 @@
+<div id="r">
+<div>
+<div></div>
+<div></div>
+</div>
+<div>
+<div></div>
+<div></div>
+</div>
+</div>
+<div id="a"></div>
+<style>
+*{margin:0;box-sizing:border-box}
+body{background:#555FD9;display:flex;justify-content:center;align-items:center}
+#r{width:230;height:230;rotate:-45deg;display:flex;flex-direction:column;justify-content:space-between;padding-bottom:3}
+#r div{width:230;height:100;display:flex;justify-content:space-between;padding:1}
+#r div div{height:100;width:100;background:#EFBB74;border-radius:50%}
+#a{position:absolute;width:200;height:200;border:20px solid#555FD9}
+</style>
