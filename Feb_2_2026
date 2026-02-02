@@ -1,0 +1,13 @@
+<div id="h">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<div id="v"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#2B2A4A;display:flex;justify-content:center;align-items:center}
+#h{width:200;height:80;background:#BA463E;border-radius:50px;display:flex;justify-content:space-evenly;align-items:center}
+#h div{width:40;height:40;border-radius:50%;background:#2B2A4A}
+#v{height:200;width:80;position:absolute;background:#BA463E;margin-top:80;border-start-start-radius:50px;border-start-end-radius:50px;z-index:-1}
+</style
