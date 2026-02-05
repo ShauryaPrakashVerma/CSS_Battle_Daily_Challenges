@@ -1,0 +1,17 @@
+<div id="t">
+<div></div>
+<div></div>
+</div>
+<div id="b">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#3F4869;display:flex;flex-direction:column;align-items:center}
+#t{width:150;height:220;display:flex;justify-content:space-between}
+#t div{height:220;width:35;background:#E25C57}
+#b{width:310;height:80;display:flex;justify-content:space-between}
+#b div{height:80;width:80;background:#E25C57}
+</style
