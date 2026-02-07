@@ -1,0 +1,16 @@
+<div id="a"></div>
+<div id="b"></div>
+<div id="a"></div>
+<div id="r">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#8877DC;display:flex;gap:20px;padding:50 25}
+#a,#b{width:30;height:200;background:#192865}
+#b{width:250;height:60}
+#r{width:250;height:60;position:absolute;margin:30 50;display:flex;gap:35px;z-index:-1}
+#r div{height:60;width:60;background:#FFE08A;border-radius:50%}
+</style>
