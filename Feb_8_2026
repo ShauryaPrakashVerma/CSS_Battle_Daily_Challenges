@@ -1,0 +1,10 @@
+<div class="c"></div>
+<div class="r"></div>
+<div class="f c"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#DC7778;display:flex;justify-content:center;align-items:center}
+.c{width:180;height:180;border-radius:50%;background:#674343}
+.r,.f{position:absolute;width:90;height:90;background:#DC7778;top:150;left:200}
+.f{background:#674343;height:80;width:80;top:155;left:205}
+</style>
