@@ -1,0 +1,33 @@
+<div class="a c g">
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+</div>
+<div class="b c">
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+</div>
+<div class="c g">
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+ <div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{height:100%;background:#8BFA94;display:flex;flex-direction:column;display:flex;align-items:center;justify-content:center;gap:30px}
+.c{width:330;height:30;display:flex;justify-content:space-between}
+.b :nth-child(2n){width:30;height:30;background:#D76159;border-radius:50%}
+.b :nth-child(2n+1){width:30;height:30;background:#D76159}
+.g :nth-child(2n){width:30;height:30;background:#D76159}
+.g :nth-child(2n+1){width:30;height:30;background:#D76159;border-radius:50%}
+</style>
