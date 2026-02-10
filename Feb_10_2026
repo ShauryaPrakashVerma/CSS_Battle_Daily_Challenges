@@ -1,0 +1,14 @@
+<div id="c"></div>
+<div class="l"></div>
+<div class="l s"></div>
+<div class="l t"></div>
+<div class="l r"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#F6E49C;display:flex;justify-content:center;align-items:center}
+#c{width:220;height:80;background:#2F5C24}
+.l{position:absolute;width:80;height:80;background:#2F5C24;border-radius:0 100px;left:10;top:30}
+.r{left:310;top:190}
+.s,.t{rotate:90deg;left:310}
+.t{left:10;top:190}
+</style>
