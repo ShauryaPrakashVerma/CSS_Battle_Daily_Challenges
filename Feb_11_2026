@@ -1,0 +1,13 @@
+<div id="b">
+<div></div>
+</div>
+<div id="v"></div>
+<div id="h"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#49C85B;display:flex;justify-content:center;align-items:center}
+#b{width:180;height:180;border:20px solid#30230A;border-radius:50%;display:flex;justify-content:center;align-items:center}
+#b div{width:100;height:100;border:20px solid white;border-radius:50%}
+#v{width:20;height:180;background:#49C85B;position:absolute}
+#h{width:100;height:20;background:#49C85B;position:absolute}
+</style>
