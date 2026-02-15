@@ -1,0 +1,12 @@
+<div id="t"></div>
+<div id="b"></div>
+<div id="l"></div>
+<div id="g"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{;background:#B5BD49;display:flex;flex-direction:column}
+#t{width:400;height:140;background:#2B2E81}
+#b{width:170;height:160;background:#2B2E81}
+#l{position:absolute;left:110;top:220;width:170;height:160;background:#2B2E81;border-radius:37%;}
+#g{position:absolute;left:120;top:140;width:170;height:80;background:#B5BD49;border-radius:50px}
+</style
