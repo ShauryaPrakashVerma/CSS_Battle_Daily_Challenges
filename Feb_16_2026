@@ -1,0 +1,9 @@
+<div></div>
+<div id="b"></div>
+<div></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#11092D;display:flex;justify-content:center;padding:40 30}
+div{width:110;height:110;background:#FFCA00;border:30px solid#4A9A86}
+#b{margin-top:110;background:#4A9A86;border-color:#FFCA00}
+</style
