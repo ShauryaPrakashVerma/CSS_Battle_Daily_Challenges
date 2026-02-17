@@ -1,0 +1,10 @@
+<div></div>
+<div></div>
+<div></div>
+<div id="l"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#8C2C73;display:flex;justify-content:flex-end;gap:20px}
+div{width:80;height:80;background:#F4F4F4}
+#l{position:absolute;height:300;width:60;background:#F4F4F4;left:120}
+</style>
