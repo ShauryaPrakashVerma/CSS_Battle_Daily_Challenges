@@ -1,0 +1,18 @@
+<div id="t"></div>
+<div id="b"></div>
+<div id="w"></div>
+<div id="l"></div>
+<div id="c1"></div>
+<div id="c2"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#FEF6E2;display:flex;justify-content:center}
+#t,#b{width:260;height:260;border-radius:50%;border:50px solid#A82828;position:absolute}
+#t{top:-90}
+#b{top:130;border-radius:50% 50% 0 0}
+#w{position:absolute;width:400;height:40;background:#FEF6E2}
+#l{position:absolute;width:400;height:40;background:#FEF6E2;top:260}
+#c1,#c2{position:absolute;width:50;height:50;border-radius:50%;background:#A82828}
+#c1{top:233;left:70}
+#c2{top:234;left:280}
+</style
