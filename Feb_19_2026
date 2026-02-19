@@ -1,0 +1,10 @@
+<div id="r"></div>
+<div class="l g"></div>
+<div class="r g"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#D8D8D8;display:flex;justify-content:center;padding:30}
+#r{width:160;height:240;background:#D99795;position:absolute;z-index:-1}
+.g{height:80;width:160;background:#558C90}
+.r{margin-top:160}
+</style
