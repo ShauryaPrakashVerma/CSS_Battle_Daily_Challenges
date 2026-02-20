@@ -1,0 +1,15 @@
+<div id="s">
+<div id="f"></div>
+<div id="t"></div>
+</div>
+<div id="t"></div>
+<div id="m"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#2F434E;display:flex;justify-content:center;align-items:center}
+#s{width:160;height:240;background:#6AC09E;display:flex;flex-direction:column;justify-content:space-between}
+#t{border-top:60px solid transparent;border-bottom:60px solid transparent;border-left:80px solid#6AC09E}
+#s #f{border-left:80px solid transparent;border-right:80px solid transparent;border-top:60px solid #2F434E}
+#m{position:absolute;height:120;width:80;border-top:60px solid transparent;border-bottom:60px solid transparent;border-right:80px solid#2F434E;margin-right:160}
+#s #t{border-left:80px solid transparent;border-right:80px solid transparent;border-bottom:60px solid #2F434E}
+</style
