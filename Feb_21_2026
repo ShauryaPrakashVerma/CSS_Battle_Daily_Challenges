@@ -1,0 +1,13 @@
+<div></div>
+<div id="m">
+<div></div>
+<div></div>
+</div>
+<div></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{height:300;background:#F7CB71;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:10px}
+div{width:120;height:40;background:#7C3219}
+#m{height:120;width:120;border-radius:30px;display:flex;flex-direction:column;justify-content:center;gap:40px}
+#m div{height:10;width:120;background:#F7CB71}
+</style
