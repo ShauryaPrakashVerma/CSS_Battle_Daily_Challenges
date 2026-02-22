@@ -1,0 +1,11 @@
+<div id="l"></div>
+<div id="r"></div>
+<div id="b"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#B5BD49}
+div{width:400;height:400;border:100px solid#11092D;border-radius:50%;position:absolute;top:50;}
+#l{left:-100}
+#r{left:100}
+#b{height:300;border-radius:0;top:0;border-bottom:50px solid;border-color:#B5BD49;border-top:30px}
+</style
