@@ -1,0 +1,16 @@
+<div id="l">
+<div></div>
+</div>
+<div id="r">
+<div></div>
+</div>
+<div id="b"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#B6EBE7;display:flex}
+#l,#r{width:400;height:400;border-radius:50%;border:100px solid#5370D9;position:absolute;top:50;;display:flex;justify-content:center;align-items:center}
+#l{left:-180}
+#l div,#r div{width:60;height:60;background:#5370D9;border-radius:50%}
+#r{left:180}
+#b{width:400;height:300;border:50px solid;z-index:1;border-color:#B6EBE7;border-left:20px solid#B6EBE7;border-right:20px solid#B6EBE7}
+</style>
