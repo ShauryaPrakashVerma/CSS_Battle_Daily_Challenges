@@ -1,0 +1,17 @@
+<div class="r">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<div class="r t">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{height:300;background:#4C4C6B;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:20px}
+.r{width:280;height:90;display:flex;justify-content:space-between}
+.r div{height:90;width:60;background:#FAE29E;border-radius:50px}
+.t :nth-child(3){background:#4C4C6B}
+</style
