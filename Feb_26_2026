@@ -1,0 +1,28 @@
+<div id="b">
+  <div>
+  <div id="s"></div>
+  <div id="c"></div>
+  </div>
+  <div>
+  <div id="c"></div>
+  <div id="s"></div>
+  </div>
+</div>
+<div id="b">
+  <div>
+  <div id="c"></div>
+  <div id="s"></div>
+  </div>
+  <div>
+  <div id="s"></div>
+  <div id="c"></div>
+  </div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{height:300;background:#12219A;display:flex;flex-direction:column;justify-content:space-between;padding:20}
+#b{width:360;height:50;display:flex;justify-content:space-between}
+#b div{display:flex;gap:10px}
+#b div #s{height:50;width:50;background:#70CCDB}
+#b div #c{height:50;width:50;background:#DB5EAD;border-radius:50%}
+</style>
