@@ -1,0 +1,23 @@
+<div id="f">
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+</div>
+<div id="s">
+<div id="t">
+<div></div>
+<div></div>
+<div></div>
+</div>
+<div id="b"></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#DB5EAD;display:flex;justify-content:center;align-items:center}
+#f{width:80;height:260;background:#12219A;display:flex;flex-direction:column;justify-content:space-evenly;align-items:center}
+#s{width:180;height:260}
+#s #t{height:80;width:180;background:#12219A;display:flex;gap:20px;align-items:center}
+#t div,#f div{width:40;height:40;background:#DB5EAD}
+#s #b{height:130;width:130;background:#12219A;margin:50 0 0 50}
+</style
