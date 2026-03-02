@@ -1,0 +1,12 @@
+<div id="a"></div>
+<div id="b"></div>
+<div id="c"></div>
+<div id="d"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#565B75;display:flex;justify-content:center;align-items:center}
+div{width:240;height:120;border:20px solid#EED9D9}
+#b{position:absolute;height:200}
+#c{position:absolute;height:250;width:320;border-top:none;border-bottom:none}
+#d{position:absolute;height:250;width:240;border-top:none;border-bottom:none}
+</style
