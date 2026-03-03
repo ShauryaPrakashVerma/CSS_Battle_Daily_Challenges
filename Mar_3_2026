@@ -1,0 +1,10 @@
+<div id="t"></div>
+<div id="l"></div>
+<div id="r"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#3C8B98}
+#t{width:400;height:40;background:#F4DA64}
+#l{width:260;height:440;position:absolute;top:60;left:-130;border-radius:140px;border:40px solid#F4DA64}
+#r{width:260;height:440;position:absolute;top:60;right:-130;border-radius:140px;border:40px solid#F4DA64}
+</style
