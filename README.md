@@ -600,3 +600,7 @@ This collection contains my solutions to the [CSS Battle](https://cssbattle.dev/
 **Mar 2 2026 Target:**
 
 <img width="438" height="367" alt="image" src="https://github.com/user-attachments/assets/d0f7e6dd-349d-4aa6-925b-358fa770dfc7" />
+
+**Mar 3 2026 Target:**
+
+<img width="437" height="367" alt="image" src="https://github.com/user-attachments/assets/5c3787e6-fbc7-45a0-a008-03ae86827a8f" />
