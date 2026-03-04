@@ -1,0 +1,19 @@
+<div id="a">
+<div></div>
+<div id="s"></div>
+<div></div>
+</div>
+<div id="b">
+<div></div>
+<div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{height:300;background:#3C8B98;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:10px}
+#a{width:170;height:80;display:flex;gap:10px}
+#a div{width:50;height:80;background:#FFFFFF}
+#a #s{background:#BFFFAE}
+#b{width:290;height:130;background:#BFFFAE;display:flex;justify-content:space-evenly}
+#b div{width:70;height:80;background:#3C8B98}
+</style
+  
