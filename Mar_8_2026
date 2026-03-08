@@ -1,0 +1,14 @@
+<div id="v"></div>
+<div id="h">
+<div id="o"></div>
+<div id="t"></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#7D5E8B;display:flex;justify-content:center;align-items:center}
+div{width:120;height:240;background:#E38F66}
+#v{background:linear-gradient(#E38F66 50%,transparent 50%);z-index:1}
+#h{position:absolute;width:360;height:120;margin-top:120;display:flex;background:linear-gradient(to right,#E38F66 33.33%,transparent 33.33% 66.66%, #E38F66 66.66%)}
+#h div{position:absolute;height:120;width:200;background:#FFEAAB;border-end-end-radius:40%;z-index:-1}
+#h #t{border-end-start-radius:40%;left:160}
+</style>
