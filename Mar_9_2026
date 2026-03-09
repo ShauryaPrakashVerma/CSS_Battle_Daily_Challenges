@@ -1,0 +1,17 @@
+<div id="a">
+<div></div>
+<div id="g"></div>
+<div></div>
+</div>
+<div id="a">
+<div id="g"></div>
+<div></div>
+<div id="g"></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#EBE77E;display:flex;justify-content:center;align-items:center;gap:120px}
+#a{width:110;height:200;display:flex;justify-content:space-between}
+#a div{height:200;width:30;background:#7E6293;border-radius:20px 20px 0 0}
+#a #g{background:#DE817E;border-radius:0 0 20px 20px}
+</style
