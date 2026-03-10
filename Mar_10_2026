@@ -1,0 +1,11 @@
+<div></div>
+<div id="a"></div>
+<div id="b"></div>
+<div id="c"></div>
+<style>
+body{background:#243D83;display:flex;justify-content:center;align-items:center}
+div{position:absolute;width:120;height:100;background:#FFFFFF}
+#a{width:100;height:120}
+#b{width:40;height:180}
+#c{width:180;height:40}
+</style
