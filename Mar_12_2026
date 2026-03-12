@@ -1,0 +1,16 @@
+<div id="r"></div>
+<div id="f"></div>
+<div id="s">
+<div></div>
+</div>
+<div id="t"></div>
+<style>
+*{margin:0;padding:0;box-sizinng:border-box}
+body{background:#48BF7D;display:flex;justify-content:center;align-items:center}
+#r{width:360;height:260;background:#EFF8FE;position:absolute;z-index:-1}
+#f,#t{width:110;height:90;background:#48BF7D}
+#f{margin-top:170}
+#t{margin-bottom:170}
+#s{width:140;height:140;background:#48BF7D}
+#s div{width:140;height:60;background:white;margin:40 0}
+</style
