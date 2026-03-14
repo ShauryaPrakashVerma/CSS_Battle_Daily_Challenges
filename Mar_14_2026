@@ -1,0 +1,10 @@
+<div id="b"></div>
+<div id="c"></div>
+<div id="s"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#F5E3B5;display:flex;justify-content:center;align-items:center}
+#b{width:200;height:200;border-radius:50%;border:30px solid#328FC1}
+#c{height:200;width:200;border-radius:50%;position:absolute;border:none;background:conic-gradient(#328FC1 25%,transparent 25%);top:30;left:120}
+#s{position:absolute;width:140;height:140;top:10;left:200;border:20px solid#F5E3B5}
+</style
