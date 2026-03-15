@@ -1,0 +1,13 @@
+<div></div>
+<div id="m"></div>
+<div></div>
+<div id="t"></div>
+<div id="b"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0B2429;display:flex;justify-content:center;align-items:center;gap:35px}
+#m{width:110;height:110;background:#F3AC3C}
+div{width:80;height:80;background:#998235}
+#t{position:absolute;top:-20}
+#b{position:absolute;top:240}
+</style
