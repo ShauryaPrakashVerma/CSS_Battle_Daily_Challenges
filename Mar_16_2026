@@ -1,0 +1,12 @@
+<div id="b">
+<div id="f"></div>
+<div id="s"></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#8BFA94;display:flex;justify-content:center;align-items:center}
+#b{width:200;height:270;background:#556D7F;display:flex;justify-content:center;align-items:center;gap:60px}
+#b div{width:50;height:200;background:#8BFA94}
+#b #f{height:150;margin-bottom:20}
+#b #s{margin-top:70}
+</style
