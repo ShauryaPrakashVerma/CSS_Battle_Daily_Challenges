@@ -1,0 +1,13 @@
+<div id="r">
+<div></div>
+</div>
+<div id="b"></div>
+<div id="b"></div>
+<div id="b"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#A6D6AE;display:flex;justify-content:center;align-items:center;gap:100px}
+#r{position:absolute;width:290;height:160;border:30px solid#3F4869;z-index:-1}
+#r div{height:30;width:230;background:#3F4869;margin:35 0}
+#b{height:160;width:30;background:linear-gradient(#A6D6AE 19%,#3F4869 19%81%,#A6D6AE 81%)}
+</style
