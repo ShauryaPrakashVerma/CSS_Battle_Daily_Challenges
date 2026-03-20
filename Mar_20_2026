@@ -1,0 +1,22 @@
+<div id="v">
+<div></div>
+<div id="s"></div>
+</div>
+<div id="h">
+<div></div>
+<div id="d"></div>
+</div>
+<div id="l1"></div>
+<div id="l2"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#352939;display:flex;justify-content:center;align-items:center}
+#v{width:230;height:80;display:flex;gap:70px}
+#v div{height:80;width:80;background:#A76DFF;border-radius:0 50% 50% 0}
+#v #s{rotate:180deg}
+#h{position:absolute;width:80;height:230;display:flex;flex-direction:column;gap:70px}
+#h div{height:80;width:80;background:#A76DFF;border-radius:0 0 50% 50%}
+#h #d{rotate:180deg}
+#l1,#l2{position:absolute;height:200;width:10;background:#FADE8B;rotate:45deg}
+#l2{rotate:-45deg}
+</style
