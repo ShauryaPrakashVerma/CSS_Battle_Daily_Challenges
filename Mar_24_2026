@@ -1,0 +1,21 @@
+<div class="c t"></div>
+<div class="c m"></div>
+<div class="c"></div>
+<div id="r">
+<div class="s f"></div>
+<div class="s d"></div>
+<div class="s g"></div>
+<div class="s a"></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#4FA9C0;display:flex;height:300;flex-direction:column;justify-content:center;align-items:center;gap:10px;padding-bottom:20px}
+.c{width:220;height:60;background:#2B2A4A;border-radius:50%}
+.t{z-index:9}
+.m{z-index:7}
+#r{width:50;position:absolute;height:260;margin-top:20;display:flex;flex-direction:column;justify-content:space-between}
+.s{height:50;width:50;background:#F4DA64}
+.f{z-index:10}
+.d{z-index:8}
+.a{z-index:-1}
+</style
