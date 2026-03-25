@@ -1,0 +1,12 @@
+<div id="t"></div>
+<div id="c">
+<div></div>
+<div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;padding-top:20}
+body{background:#7A60A1;display:flex;justify-content:center}
+#t{width:90;height:70;background:#F5DB78;border-radius:50px}
+#c{position:absolute;height:280;width:280;background:linear-gradient(#F5DB78 50%,#7A60A1 50%);top:120;border-radius:50%;display:flex;justify-content:center;align-items:center;gap:160px}
+#c div{width:20;height:120;background:#7A60A1}
+</style
