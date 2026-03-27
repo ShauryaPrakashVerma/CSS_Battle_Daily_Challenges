@@ -1,0 +1,14 @@
+<div id="l">
+<div></div>
+</div>
+<div id="r">
+<div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#3F4869;display:flex;justify-content:space-between;align-items:center}
+div{width:180;height:180;background:#B5BD49}
+#l{margin-top:120;rotate:90deg}
+#l div,#r div{height:60;width:60;background:#FFFFFF}
+#r{margin-bottom:120;rotate:-90deg}
+</style
