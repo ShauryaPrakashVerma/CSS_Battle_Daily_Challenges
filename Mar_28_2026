@@ -1,0 +1,10 @@
+<div id="r">
+<div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#12219A;display:flex;justify-content:center;align-items:center}
+div{border:30px solid#70CCDB}
+#r{width:300;height:240;border:30px solid#70CCDB;display:flex;justify-content:center}
+#r div{height:170;width:120;border-radius:0 0 60px 60px;border-top:none}
+</style
