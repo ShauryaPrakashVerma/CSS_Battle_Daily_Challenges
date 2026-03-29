@@ -1,0 +1,20 @@
+<div id="bg">
+<div></div>
+</div>
+<div id="l">
+<div></div>
+<div></div>
+</div>
+<div id="r">
+<div></div>
+</div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#6319FF;display:flex;justify-content:center;align-items:center;gap:40px}
+#bg{position:absolute;width:160;height:160;background:#FB8C79;z-index:-1;rotate:180deg}
+#bg div{width:60;height:60;background:#6319FF}
+#l{height:240;width:100;display:flex;flex-direction:column;gap:40px}
+#l div{height:100;width:100;background:#FFFFFF}
+#r{height:240;width:100}
+#r div{height:100;width:100;background:#FFFFFF}
+</style
