@@ -1,0 +1,11 @@
+<div id="r">
+<div></div>
+</div>
+<div id="t"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#D96C7B;display:flex;justify-content:center;align-items:center}
+#r{width:300;height:170;border:40px solid#4C455B;margin-top:90}
+#r div{height:60;width:60;background:#4C455B;border-radius:50%;margin:15 80}
+#t{position:absolute;height:130;width:180;margin:0 0 130 0;border:40px solid#4C455B;border-radius:100px 100px 0 0;background:#D96C7B;border-bottom:none}
+</style
