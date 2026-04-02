@@ -1,0 +1,17 @@
+<div id="a"></div>
+<div id="b"></div>
+<div id='c'></div>
+<div id="x"></div>
+<div id="y"></div>
+<div id="z"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{height:300;background:#F2EAA8;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:20px}
+#a,#b,#c{position:absolute;width:80;height:80;background:#73AB7C}
+#a{width:240}
+#b{height:240}
+#c{background:#F2EAA8}
+#x,#y,#z{height:60;width:60;background:#EE7667;border-radius:50%;z-index:1}
+#x{margin-left:160}
+#z{margin-right:160}
+</style
