@@ -1,0 +1,11 @@
+<div id="c"></div>
+<div id="r"></div>
+<div id="b"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{height:300;background:#262D80;display:flex;justify-content:center;flex-direction:column;align-items:center;gap:10px}
+#c,#r{background:#8BB248;width:40}
+#c{height:40;border-radius:50%}
+#r{height:100}
+#b{height:250;width:250;position:absolute;border-radius:50%;border:30px solid#8BB248}
+</style
