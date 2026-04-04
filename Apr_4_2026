@@ -1,0 +1,14 @@
+<div id="w">
+<div></div>
+<div></div>
+</div>
+<div id="r"></div>
+<div id="t"></div>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#1B1D36;display:flex;justify-content:center;align-items:flex-end}
+#w{width:160;height:160;background:#F0CD48;display:flex;justify-content:space-evenly}
+#w div{height:160;width:20;background:#1B1D36}
+#r{position:absolute;height:160;width:280;top:20;border-radius:90px;border:40px solid#F0CD48;z-index:-1}
+#t{height:100;width:120;background:#1B1D36;position:absolute;top:10}
+</style
